@@ -1,3 +1,1 @@
-# Initial template for my godot games
-
-A Tip: Try already successful stuff until you are satisfied (in the profession maintainability aspect) and then, can do something new
+Monument valley-like isometric movement, with fog of war clipping
