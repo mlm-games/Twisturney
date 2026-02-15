@@ -1,6 +1,21 @@
 [gd_scene format=3 uid="uid://h30mob8qlss4"]
 
 [ext_resource type="Script" uid="uid://ixpppcuhpbdm" path="res://game/scenes/autoloads/autoload.gd" id="1_f5mab"]
+[ext_resource type="Script" uid="uid://n44lnfn0xsfc" path="res://game/scripts/autoloads/level_manager.gd" id="2_o80ch"]
+[ext_resource type="Script" uid="uid://b4xy2hocjsuh8" path="res://game/scripts/constants.gd" id="3_7nvls"]
 
 [node name="Autoload" type="Node" unique_id=1531062604]
 script = ExtResource("1_f5mab")
+
+[node name="LevelManager" type="Node" parent="." unique_id=807230968]
+script = ExtResource("2_o80ch")
+metadata/_custom_type_script = "uid://n44lnfn0xsfc"
+
+[node name="BGMusic" type="AudioStreamPlayer" parent="." unique_id=1774736239]
+
+[node name="GameTimer" type="Timer" parent="." unique_id=1464373887]
+unique_name_in_owner = true
+
+[node name="C" type="Node" parent="." unique_id=864498696]
+script = ExtResource("3_7nvls")
+metadata/_custom_type_script = "uid://b4xy2hocjsuh8"

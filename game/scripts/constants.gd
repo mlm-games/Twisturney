@@ -13,6 +13,12 @@ const SCREENS = {
 	END = "uid://o7bist5hmyv6",
 }
 
+const LEVELS = {
+	TUTORIAL = preload("res://game/scenes/levels/World01level01scene01.tscn"),
+	W01L01S01 = preload("res://game/scenes/levels/World01level01scene01.tscn"),
+	#W01L10S01 = preload("res://game/scenes/levels/World01level10scene01.tscn"),
+}
+
 const RESOURCES = {
 	SHADERS = {
 		#CIRCULAR_ENGULF = preload("uid://dnms5hsmipkyv")
